@@ -24,14 +24,63 @@ body{
    margin-bottom: 20px;
    margin-left: auto;
    margin-right: auto;
+   width: 95%;
+   min-width: 320px;
+   max-width: 960px;
+   position: relative;
+}
+img{
+   display: block;
+   width: 100%;
+}
+a{
+   text-decoration: none;
 }
 
 /* Body Header Styles */
 
+body header{
+   background-color: rgb(191, 168, 170);
+   height: 40px;
+}
+body > header > nav > ul > li{
+   display: block;
+   float: left;
+   margin-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+body header ul a:visited, body >header> ul a:link{
+   font-size: 0.9em;
+   color: rgb(51, 51, 51);
+}
+body header ul a:hover, body >header> ul a:active{
+   color: rgb(255, 211, 211)
+}
 
 
 /* DIV Container Styles */
 
-
+#container{
+   padding-right: 8px;
+   padding-bottom: 8px;
+}
+.cell a{
+   display: block;
+   width: 100%;
+   padding-left: 8px;
+   padding-top: 8px;
+}
 
 /* Footer Styles */
+
+footer{
+   position: absolute;
+   right: 8px;
+   bottom: 8px;
+   color: rgb(143, 33, 36);
+   align-content: right;
+   font-size: 2vmin;
+}
