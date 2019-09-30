@@ -6,7 +6,8 @@ State
 National
 International
 Sports
-Weather 
+Weather
+Blake 
 
 Classifieds
 For Sale
